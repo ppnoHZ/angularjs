@@ -1,0 +1,17 @@
+<html ng-app="myApp">
+	<head>
+		<title>我的购物车</title>
+		<script src="https://code.angularjs.org/angular-1.0.1.min.js"></script>
+	</head>
+	<body ng-controller="CartContorller">
+		<h1>我的订单</h1>
+		<div ng-repeat="item in items">
+			<span>{{item.title}}</span>
+			<input ng-model="item.quantity">
+			<span>{{item.price | currency}}</span>
+			<span>{{item.price * item.quantity | curreny}}</span>
+			<button onclick="remove($index)">删除</button>
+		</div>
+		
+	</body>
+</html>
