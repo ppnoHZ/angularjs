@@ -1,0 +1,1 @@
+#表单验证    确保 form 有name属性    * 必填项 required    * 最小长度 ng-minlength="5"    * 最大长度 ng-maxlenght="20"    * 正则表达式 ng-pattern="[a-zA-Z]"    * 电子邮件 只需要设置input的type 为email    * 数字：input类型设置为 number    * URL ： input type=”url“    

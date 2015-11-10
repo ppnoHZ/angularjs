@@ -1,0 +1,22 @@
+<html ng-app="app">
+
+<head>
+    <title></title>
+    <script src="../lib/angularjs1.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+<div ng-controller="appController">
+    <form name="form" action="">
+        1,必填项<br>
+        <input type="text" required/><br>
+        2,最小长度 ng-minlength="5"<br>
+        <input type="text" ng-minlength="5"/>
+        3,最大长度
+        <input type="text" ng-maxlength="10"/>
+    </form>
+</div>
+</body>
+
+</html>

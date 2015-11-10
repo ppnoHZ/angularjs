@@ -1,0 +1,22 @@
+<html ng-app="app">
+
+<head>
+    <title></title>
+    <script src="../lib/angularjs1.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+<div ng-controller="ParentController">
+    Parent
+    {{person}}
+    {{p.name}}
+    <div ng-controller="ChildController">
+        Child
+        <a ng-click="sayHello()">Say Hello!</a>
+    </div>
+
+</div>
+</body>
+
+</html>

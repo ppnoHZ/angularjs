@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+    <script src="../lib/angularjs1.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="services.js"></script>
+</head>
+
+<body>
+<div>
+    <div ng-controller="appController">
+        <input ng-model="to"
+               type="email"
+               placeholder="Recipient"/>
+        <br>
+        <textarea ng-model="emailBody"></textarea>
+
+        <div id="emailPreview">
+            <pre>-- previewText --</pre>
+        </div>
+
+
+    </div>
+</div>
+</body>
+
+</html>
+
