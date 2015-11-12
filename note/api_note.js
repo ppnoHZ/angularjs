@@ -9,8 +9,6 @@ module.exports = function(){
         var tokenData = req.body.token || req.params.token || req.headers['x-access-token'];
         if(tokenData)
         {
-            console.log(tokenData);
-            console.log(req.body);
             token.verify(tokenData,function(err,decoded)
             {
                 if(err)
@@ -19,7 +17,6 @@ module.exports = function(){
                     return;
                 }
                 req.decoded = decoded;
-                console.log(decoded)
                 next();
             });
         }
