@@ -1,0 +1,1 @@
+<div class="container">    <form>            <textarea ng-model="text">            </textarea>        <button ng-click="submitForm()" type="submit">留言</button>    </form>    <div ng-controller="HomeController">        <div ng-repeat="note in notes">            {{note.text}}        </div>    </div></div>

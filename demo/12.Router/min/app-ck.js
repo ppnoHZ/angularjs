@@ -1,0 +1,1 @@
+angular.module("app",["ngRoute"]).config(["$routeProvider",function(o){o.when("/home",{templateUrl:"view/home.html",controller:"HomeController"})}]).controller("HomeController",function(o){o.name="stark"});
