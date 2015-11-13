@@ -2,7 +2,9 @@ var express = require('express');
 var mongoose = require('mongoose');
 var body_parser = require('body-parser');
 var morgan = require('morgan');
+var note = require('./db_note');
 
+var token = require('./token.js')
 //mongoose.connect('mongodb://root:123456@ds053784.mongolab.com:53784/rsc-test');
 mongoose.connect('192.168.3.105:27017/test');
 
@@ -21,7 +23,7 @@ app.use(morgan('tiny'));
 app.use('/account', require('./api_account')());
 app.use('/note', require('./api_note')());
 app.use('*', function (req, res) {
-    res.sendFile(__dirname+'/views/index.html')
+    res.sendFile(__dirname + '/views/index.html')
 });
 
 var server = require('http').createServer(app);
@@ -29,13 +31,24 @@ var server = require('http').createServer(app);
 
 var io = require('socket.io')(server);
 io.on('connection', function (socket) {
-    socket.emit('connection ok');
-    socket.on('event1', function () {
+    socket.emit('news', {hello: 'world'});
+
+    socket.on('getAllNotes', function (data) {
+        token.verify(data.token, function (error, data) {
+            note.find({username: data.username}, function (err, result) {
+                if (err) {
+                    socket.emit('pushAllNotes', []);
+                }
+                else {
+                    socket.emit('pushAllNotes', result);
+                }
+            });
+        })
     });
-    socket.on('event2', function () {
-    });
-    socket.on('event3', function () {
-    });
+
+    socket.on('disconnect', function () {
+        console.log('user disconneted')
+    })
 });
 
 var port = 18080;

@@ -5,7 +5,6 @@ angular.module('noteRouter', ['ngRoute'])
     .run(['$rootScope', '$location', function ($rootScope, $location) {
         $rootScope.$on('$routeChangeSuccess', function (userInfo) {
             //通过 $q.when(userInfo);
-            console.log('userInfo', userInfo);
         });
         $rootScope.$on('$routeChangeError', function (event, current, previous, eventObj) {
             //eventObj是通过$q.reject({authenticated: false});传递过来的
