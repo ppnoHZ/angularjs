@@ -1,0 +1,1 @@
+使用了 then之后 返回的数据是在result.data里服务端返回：res.send(401, {status: 'not_found'});客户端得到的result为：    Object {data: Object, status: 401, config: Object, statusText: "Unauthorized"}        data: Object        status: "not_found"statusText是status 401的描述

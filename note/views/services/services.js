@@ -5,7 +5,7 @@
 angular.module('app.Services', [])
     .factory('note_Services', function ($http, $window) {
         var runNotesRequest = function (path, data) {
-            var toke = {token: $window.localStorage.getItem('token')};
+            var toke = {token: JSON.parse($window.sessionStorage['userInfo']).token};
             angular.extend(data, toke);
             return $http
                 .post(path, data);
@@ -19,19 +19,71 @@ angular.module('app.Services', [])
             }
         }
     })
-    .factory('UserService', function ($http, $window) {
-        var runNotesRequest = function (path, data) {
-            var toke = {token: $window.localStorage.getItem('token')};
-            //angular.extend(data, toke);
-            return $http
-                .post(path, data);
-        };
-        return {
-            login: function (data) {
-                return runNotesRequest('/account/login', data);
-            },
-            register: function (data) {
-                return runNotesRequest('/account/signup', data);
+    //.factory('UserService', function ($http, $window) {
+    //    var runNotesRequest = function (path, data) {
+    //        var toke = {token: $window.localStorage.getItem('token')};
+    //        //angular.extend(data, toke);
+    //        return $http
+    //            .post(path, data);
+    //    };
+    //    return {
+    //        login: function (data) {
+    //            return runNotesRequest('/account/login', data);
+    //        },
+    //        register: function (data) {
+    //            return runNotesRequest('/account/signup', data);
+    //        }
+    //    }
+    //})
+    .factory('authenticationSvc', function ($http, $q, $window) {
+        var userInfo;
+
+        function login(data) {
+            var deferred = $q.defer();
+
+            $http.post('/account/login', data).then(function (result) {
+                userInfo = {
+                    token: result.data.token,
+                    nickname: result.data.nickname
+                };
+                $window.sessionStorage['userInfo'] = JSON.stringify(userInfo);
+                deferred.resolve(userInfo);
+            }, function (error) {
+                deferred.reject(error);
+            });
+            return deferred.promise;
+        }
+
+        function getUserInfo() {
+            return userInfo;
+        }
+
+        function register(data) {
+            var deferred = $q.defer();
+            $http.post('/account/signup', data).then(function (result) {
+                userInfo = {
+                    token: result.data.token,
+                    nickname: result.data.nickname
+                };
+                $window.sessionStorage['userInfo'] = JSON.stringify(userInfo);
+                deferred.resolve(userInfo);
+            }, function (error) {
+                deferred.reject(error);
+            });
+            return deferred.promise;
+        }
+
+        function init() {
+            if ($window.sessionStorage['userInfo']) {
+                userInfo = JSON.parse($window.sessionStorage['userInfo']);
             }
         }
+
+
+        init();
+        return {
+            login: login,
+            getUserInfo: getUserInfo,
+            register: register
+        };
     })
