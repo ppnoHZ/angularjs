@@ -6,11 +6,14 @@ angular.module('noteRouter', ['ngRoute'])
         //$routeProvider.hasOwnProperty('!');
         $routeProvider.when('/home', {
             templateUrl: 'view/home.html',
-            controller: 'HomeController'
+            controller: 'HomeController',
+            cache:'false'
         });
         $routeProvider.when('/register', {
             templateUrl: 'view/register.html',
-            controller: 'RegisterController'
+            controller: 'RegisterController',
+            cache:'false'
+
         })
         $locationProvider.html5Mode(true);
 

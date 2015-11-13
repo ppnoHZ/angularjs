@@ -25,6 +25,8 @@ app.use('*', function (req, res) {
 });
 
 var server = require('http').createServer(app);
+
+
 var io = require('socket.io')(server);
 io.on('connection', function (socket) {
     socket.emit('connection ok');
