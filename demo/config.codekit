@@ -2,6 +2,320 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "16877",
 "files": {
+	"\/12.Router\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/12.Router\/app.js",
+		"outputAbbreviatedPath": "\/12.Router\/min\/app-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/12.Router\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/12.Router\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/12.Router\/layout.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/12.Router\/layout.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/12.Router\/lib\/angular-route.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/12.Router\/lib\/angular-route.js",
+		"outputAbbreviatedPath": "\/12.Router\/lib\/min\/angular-route-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/12.Router\/lib\/angularjs1.4\/angular-route.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/12.Router\/lib\/angularjs1.4\/angular-route.min.js",
+		"outputAbbreviatedPath": "\/12.Router\/lib\/angularjs1.4\/min\/angular-route.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/12.Router\/lib\/angularjs1.4\/angular.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/12.Router\/lib\/angularjs1.4\/angular.min.js",
+		"outputAbbreviatedPath": "\/12.Router\/lib\/angularjs1.4\/min\/angular.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/12.Router\/min\/app-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/12.Router\/min\/app-ck.js",
+		"outputAbbreviatedPath": "\/12.Router\/min\/min\/app-ck-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/12.Router\/view\/home.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/12.Router\/view\/home.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/25.ui-router\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/app.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/min\/app-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/CHANGELOG.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/CONTRIBUTING.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/CONTRIBUTING.md",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/CONTRIBUTING.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/README.md",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/release\/angular-ui-router.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/release\/angular-ui-router.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/release\/min\/angular-ui-router-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/release\/angular-ui-router.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/release\/angular-ui-router.min.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/release\/min\/angular-ui-router.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/common.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/common.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/common-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/resolve.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/resolve.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/resolve-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/state.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/state.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/state-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/stateDirectives.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/stateDirectives.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/stateDirectives-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/stateFilters.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/stateFilters.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/stateFilters-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/templateFactory.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/templateFactory.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/templateFactory-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/urlMatcherFactory.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/urlMatcherFactory.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/urlMatcherFactory-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/urlRouter.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/urlRouter.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/urlRouter-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/view.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/view.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/view-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/viewDirective.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/viewDirective.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/viewDirective-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular-ui-router\/src\/viewScroll.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/viewScroll.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular-ui-router\/src\/min\/viewScroll-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular\/angular-csp.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/angular-csp.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/25.ui-router\/bower_components\/angular\/angular.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/angular.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/min\/angular-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular\/angular.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/angular.min.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/min\/angular.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/index.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/min\/index-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/25.ui-router\/bower_components\/angular\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/README.md",
+		"outputAbbreviatedPath": "\/25.ui-router\/bower_components\/angular\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/25.ui-router\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/25.ui-router\/min\/app-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/25.ui-router\/min\/app-ck.js",
+		"outputAbbreviatedPath": "\/25.ui-router\/min\/min\/app-ck-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/5.1event\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -365,32 +679,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/Router\/app.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Router\/app.js",
-		"outputAbbreviatedPath": "\/Router\/min\/app-ck.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Router\/layout.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Router\/layout.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/Router\/view\/home.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Router\/view\/home.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

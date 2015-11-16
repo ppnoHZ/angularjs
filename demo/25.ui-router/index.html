@@ -1,0 +1,26 @@
+<html ng-app="app">
+
+<head>
+    <title></title>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="lib/angularjs1.4/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-ui-mask/dist/mask.js"></script>
+    <script src="app.js"></script>
+    <script src="lib/angular-route.js"></script>
+
+
+</head>
+
+<body>
+<div ng-controller="appController">
+    <div ui-view>
+        <form>
+            <input type="text" ng-model="phonenumber" ui-mask="(999) 999-9999"  ui-mask-placeholder ui-mask-placeholder-char="_"/>
+            <button type="submit" ng-click="submitForm()">click</button>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>

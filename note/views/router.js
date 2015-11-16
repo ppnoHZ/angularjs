@@ -5,18 +5,18 @@ angular.module('noteRouter', ['ngRoute'])
     .run(['$rootScope', '$location', function ($rootScope, $location) {
         $rootScope.$on('$routeChangeSuccess', function (userInfo) {
             //通过 $q.when(userInfo);
+
+            $location.path('/home');
         });
         $rootScope.$on('$routeChangeError', function (event, current, previous, eventObj) {
             //eventObj是通过$q.reject({authenticated: false});传递过来的
             if (eventObj.authenticated === false) {
                 $location.path('/login');
             }
-
         });
         $rootScope.$on('loginByChild', function (event, data) {
             $rootScope.$broadcast('loginToChild', data)
         });
-
     }])
     .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
         //$routeProvider.hasOwnProperty('!');
@@ -40,18 +40,36 @@ angular.module('noteRouter', ['ngRoute'])
                     }
                 }]
             }
-        });
-        $routeProvider.when('/register', {
-            templateUrl: 'view/register.html',
-            controller: 'RegisterController',
-            cache: 'false'
+        })
+            .when('/register', {
+                templateUrl: 'view/register.html',
+                controller: 'RegisterController',
+                cache: 'false'
 
-        });
-        $routeProvider.when('/login', {
-            templateUrl: 'view/login.html',
-            controller: 'LoginController',
-            cache: 'false'
-        });
+            })
+            .when('/login', {
+                templateUrl: 'view/login.html',
+                controller: 'LoginController',
+                cache: 'false'
+            }).when('/', {
+                templateUrl: 'view/login.html',
+                controller: 'LoginController',
+                cache: 'false',
+                resolve: {
+                    auth: ['$q', 'authenticationSvc', function ($q, authenticationSvc) {
+                        var userInfo = authenticationSvc.getUserInfo();
+                        console.log(userInfo);
+                        if (userInfo) {
+                            return $q.when(userInfo);// 成功则会进到  $routeChangeSuccess事件
+                        } else {
+                            return $q.reject({authenticated: false});// 没有登陆 进入$routeChangeError
+                        }
+                    }]
+                }
+            })
+            .otherwise({
+                redirectTo: '/'
+            });
         $locationProvider.html5Mode(true);
 
     }])
