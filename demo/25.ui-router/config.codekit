@@ -12,6 +12,264 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/angular-ui-event\/CHANGELOG.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/CHANGELOG.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-event\/CHANGELOG.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-event\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-event\/dist\/event.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/dist\/event.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-event\/dist\/min\/event-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-event\/dist\/event.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/dist\/event.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-event\/dist\/min\/event.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-event\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/gulpfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-event\/min\/gulpfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-event\/karma.conf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/karma.conf.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-event\/min\/karma.conf-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-event\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-event\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-event\/src\/event.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/src\/event.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-event\/src\/min\/event-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-event\/test\/eventSpec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-event\/test\/eventSpec.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-event\/test\/min\/eventSpec-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-indeterminate\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-indeterminate\/dist\/indeterminate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/dist\/indeterminate.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/dist\/min\/indeterminate-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-indeterminate\/dist\/indeterminate.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/dist\/indeterminate.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/dist\/min\/indeterminate.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-indeterminate\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/gulpfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/min\/gulpfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-indeterminate\/karma.conf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/karma.conf.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/min\/karma.conf-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-indeterminate\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-indeterminate\/src\/indeterminate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/src\/indeterminate.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/src\/min\/indeterminate-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-indeterminate\/test\/indeterminateSpec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/test\/indeterminateSpec.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-indeterminate\/test\/min\/indeterminateSpec-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-mask\/demo\/angular.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/demo\/angular.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/demo\/min\/angular.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-mask\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-mask\/dist\/mask.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/dist\/mask.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/dist\/min\/mask-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-mask\/dist\/mask.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/dist\/mask.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/dist\/min\/mask.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-mask\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/gulpfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/min\/gulpfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-mask\/karma.conf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/karma.conf.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/min\/karma.conf-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-mask\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-mask\/src\/mask.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/src\/mask.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/src\/min\/mask-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-mask\/test\/maskSpec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/test\/maskSpec.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-mask\/test\/min\/maskSpec-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/angular-ui-router\/CHANGELOG.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -175,6 +433,349 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/angular-ui-scroll\/dist\/ui-scroll-jqlite.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/dist\/ui-scroll-jqlite.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/dist\/min\/ui-scroll-jqlite-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scroll\/dist\/ui-scroll-jqlite.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/dist\/ui-scroll-jqlite.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/dist\/min\/ui-scroll-jqlite.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scroll\/dist\/ui-scroll.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/dist\/ui-scroll.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/dist\/min\/ui-scroll-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scroll\/dist\/ui-scroll.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/dist\/ui-scroll.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/dist\/min\/ui-scroll.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scroll\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-scroll\/src\/ui-scroll-jqlite.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/src\/ui-scroll-jqlite.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/src\/ui-scroll-jqlite.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scroll\/src\/ui-scroll.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/src\/ui-scroll.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scroll\/src\/ui-scroll.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scrollpoint\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-scrollpoint\/dist\/scrollpoint.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/dist\/scrollpoint.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/dist\/min\/scrollpoint-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scrollpoint\/dist\/scrollpoint.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/dist\/scrollpoint.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/dist\/min\/scrollpoint.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scrollpoint\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/gulpfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/min\/gulpfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scrollpoint\/karma.conf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/karma.conf.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/min\/karma.conf-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scrollpoint\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-scrollpoint\/src\/scrollpoint.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/src\/scrollpoint.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/src\/min\/scrollpoint-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-scrollpoint\/test\/scrollpointSpec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/test\/scrollpointSpec.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-scrollpoint\/test\/min\/scrollpointSpec-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-uploader\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-uploader\/dist\/uploader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/dist\/uploader.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/dist\/min\/uploader-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-uploader\/dist\/uploader.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/dist\/uploader.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/dist\/min\/uploader.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-uploader\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/gulpfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/min\/gulpfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-uploader\/karma.conf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/karma.conf.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/min\/karma.conf-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-uploader\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-uploader\/src\/uploader.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/src\/uploader.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/src\/min\/uploader-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-uploader\/test\/uploaderSpec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/test\/uploaderSpec.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-uploader\/test\/min\/uploaderSpec-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-utils\/index.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-utils\/index.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-utils\/min\/index-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-utils\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-utils\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-utils\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-validate\/demo\/angular.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/demo\/angular.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/demo\/min\/angular.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-validate\/demo\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/demo\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-validate\/dist\/validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/dist\/validate.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/dist\/min\/validate-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-validate\/dist\/validate.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/dist\/validate.min.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/dist\/min\/validate.min-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-validate\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/gulpfile.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/min\/gulpfile-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-validate\/karma.conf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/karma.conf.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/min\/karma.conf-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-validate\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/angular-ui-validate\/src\/validate.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/src\/validate.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/src\/min\/validate-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/angular-ui-validate\/test\/validateSpec.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/test\/validateSpec.js",
+		"outputAbbreviatedPath": "\/bower_components\/angular-ui-validate\/test\/min\/validateSpec-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/angular\/angular-csp.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -295,6 +896,25 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/ReadMe.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ReadMe.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/ReadMe.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ReadMe.md",
+		"outputAbbreviatedPath": "\/ReadMe.html",
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
