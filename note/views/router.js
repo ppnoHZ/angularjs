@@ -6,7 +6,7 @@ angular.module('noteRouter', ['ngRoute'])
         $rootScope.$on('$routeChangeSuccess', function (userInfo) {
             //通过 $q.when(userInfo);
 
-            $location.path('/home');
+            //$location.path('/home');
         });
         $rootScope.$on('$routeChangeError', function (event, current, previous, eventObj) {
             //eventObj是通过$q.reject({authenticated: false});传递过来的
@@ -18,7 +18,7 @@ angular.module('noteRouter', ['ngRoute'])
             $rootScope.$broadcast('loginToChild', data)
         });
     }])
-    .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+    .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider, $window) {
         //$routeProvider.hasOwnProperty('!');
         //如果设置了 resolve 属性 angular会将列表中的元素注入到控制器中，
         //如果这些依赖是promise对象，那么他们在控制器加载以及$routeChangeSuccuss被触发
