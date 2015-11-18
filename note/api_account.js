@@ -6,6 +6,10 @@ var token = require('./token');
 module.exports = function () {
     var api = express.Router();
 
+    api.get('/test',function(req,res){
+        res.send({status: 'test'});
+        res.end();
+    })
     api.post('/signup', function (req, res) {
         var username = req.body.username;
         var password = req.body.password;
@@ -49,6 +53,7 @@ module.exports = function () {
             res.send({status: 'success', nickname: result.nickName, token: token.encode(username)});
         });
     });
+
 
     api.use(function (req, res, next) {
         var tokenData = req.body.token || req.params.token || req.headers['x-access-token'];
