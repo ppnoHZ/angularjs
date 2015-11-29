@@ -1,0 +1,225 @@
+listen 18080 ok!
+OPTIONS /account/signup 200 21 - 23.641 ms
+POST /account/signup 200 23 - 1.465 ms
+POST /account/signup 200 23 - 0.535 ms
+OPTIONS /account/signup 200 21 - 0.607 ms
+POST /account/signup 200 206 - 489.434 ms
+OPTIONS /account/signup 200 21 - 0.285 ms
+POST /account/signup 200 217 - 8.836 ms
+listen 18080 ok!
+GET /favicon.ico 200 3034 - 3.257 ms
+GET /lib/angularjs1.4/angular.min.js.map 200 3034 - 1.212 ms
+GET /favicon.ico 304 - - 0.721 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 1.563 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.308 ms
+GET /favicon.ico 304 - - 0.570 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.430 ms
+GET /favicon.ico 304 - - 0.339 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.589 ms
+GET /favicon.ico 304 - - 0.485 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.523 ms
+GET /favicon.ico 304 - - 0.398 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.348 ms
+GET /favicon.ico 304 - - 0.994 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.357 ms
+GET /favicon.ico 304 - - 0.334 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.293 ms
+GET /favicon.ico 304 - - 0.293 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.667 ms
+GET /favicon.ico 304 - - 0.276 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.306 ms
+GET /favicon.ico 304 - - 0.305 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.331 ms
+GET /favicon.ico 304 - - 0.268 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.296 ms
+GET /favicon.ico 200 3034 - 29.402 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.306 ms
+GET /favicon.ico 200 3034 - 0.541 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.302 ms
+GET /favicon.ico 304 - - 0.267 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.300 ms
+GET /favicon.ico 304 - - 0.290 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.460 ms
+GET /favicon.ico 304 - - 0.272 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.525 ms
+GET /favicon.ico 304 - - 0.254 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.309 ms
+GET /favicon.ico 304 - - 0.315 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.315 ms
+GET /favicon.ico 304 - - 0.285 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.281 ms
+GET /favicon.ico 304 - - 0.303 ms
+OPTIONS /account/signup 200 21 - 189.454 ms
+POST /account/signup 200 23 - 1.084 ms
+POST /account/signup 200 199 - 40.585 ms
+GET /lib/angularjs1.4/angular.min.js.map 304 - - 0.479 ms
+GET /favicon.ico 304 - - 0.279 ms
+OPTIONS /account/signup 200 21 - 0.556 ms
+POST /account/signup 200 23 - 0.219 ms
+POST /account/signup 200 201 - 9.880 ms
+OPTIONS /account/signup 200 21 - 0.313 ms
+POST /account/signup 200 23 - 0.211 ms
+OPTIONS /account/signup 200 21 - 16.836 ms
+POST /account/signup 200 23 - 0.217 ms
+POST /account/signup 200 203 - 20.986 ms
+OPTIONS /account/signup 200 21 - 1.680 ms
+POST /account/signup 200 201 - 9.675 ms
+OPTIONS /account/signup 200 21 - 2.293 ms
+POST /account/signup 200 203 - 8.488 ms
+OPTIONS /account/signup 200 21 - 1.798 ms
+POST /account/signup 200 16 - 104.246 ms
+POST /account/signup 200 196 - 6.339 ms
+OPTIONS /account/signup 200 21 - 43.726 ms
+POST /account/signup 200 23 - 0.250 ms
+OPTIONS /account/signup 200 21 - 1.866 ms
+POST /account/signup 200 196 - 537.843 ms
+POST /account/signup 200 23 - 1.177 ms
+POST /account/signup 200 23 - 0.201 ms
+POST /account/signup 200 23 - 0.200 ms
+POST /account/signup 200 23 - 0.166 ms
+POST /account/signup 200 23 - 0.169 ms
+POST /account/signup 200 23 - 0.199 ms
+POST /account/signup 200 23 - 0.194 ms
+POST /account/signup 200 23 - 0.200 ms
+POST /account/signup 200 23 - 0.263 ms
+POST /account/signup 200 23 - 0.192 ms
+GET /account/test 304 - - 1.214 ms
+GET /account/test 304 - - 0.287 ms
+GET /account/test 304 - - 0.237 ms
+GET /account/test 304 - - 0.232 ms
+GET /account/test 304 - - 0.255 ms
+GET /account/test 304 - - 0.271 ms
+GET /account/test 304 - - 0.233 ms
+GET /account/test 304 - - 0.641 ms
+GET /account/test 304 - - 0.464 ms
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EADDRINUSE
+    at exports._errnoException (util.js:746:11)
+    at Server._listen2 (net.js:1129:14)
+    at listen (net.js:1155:10)
+    at Server.listen (net.js:1240:5)
+    at Object.<anonymous> (/Users/ID/work/angularjs/note/server.js:58:8)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
+GET /favicon.ico 200 3034 - 41.489 ms
+GET /account/test 200 17 - 24.471 ms
+GET /account/test 200 17 - 1.561 ms
+GET /favicon.ico 304 - - 14.245 ms
+GET /account/test 304 - - 11.603 ms
+GET /account/test 304 - - 0.251 ms
+GET /account/test 304 - - 7.785 ms
+GET /account/test 304 - - 0.258 ms
+GET /account/test 304 - - 0.273 ms
+GET /account/test 304 - - 12.036 ms
+GET /account/test 304 - - 0.245 ms
+GET /account/test 304 - - 0.293 ms
+GET /account/test 304 - - 0.258 ms
+GET /account/test 304 - - 0.232 ms
+GET /account/test 200 17 - 56.718 ms
+GET /account/test 304 - - 1.437 ms
+GET /account/test 304 - - 0.574 ms
+GET /account/test 304 - - 0.335 ms
+GET /account/test 200 17 - 3.106 ms
+GET /account/test 304 - - 0.627 ms
+GET /account/test 304 - - 0.273 ms
+GET /account/test 304 - - 28.478 ms
+GET /account/test 304 - - 0.796 ms
+GET /account/singup 200 21 - 0.380 ms
+OPTIONS /account/singup 200 21 - 0.276 ms
+POST /account/singup 200 21 - 0.377 ms
+OPTIONS /account/signup 200 21 - 12.943 ms
+POST /account/signup 200 16 - 78.787 ms
+OPTIONS /account/signup 200 21 - 0.251 ms
+POST /account/signup 200 16 - 27.709 ms
+POST /account/signup 200 16 - 21.728 ms
+OPTIONS /account/signup 200 21 - 199.645 ms
+POST /account/signup 200 16 - 46.229 ms
+OPTIONS /account/signup 200 21 - 0.294 ms
+POST /account/signup 200 16 - 39.637 ms
+OPTIONS /account/signup 200 21 - 0.306 ms
+POST /account/signup 200 16 - 80.487 ms
+OPTIONS /account/signup 200 21 - 0.267 ms
+POST /account/signup 200 208 - 30.058 ms
+POST /account/signup 200 213 - 65.679 ms
+POST /account/signup 200 16 - 38.016 ms
+OPTIONS /account/signup 200 21 - 24.600 ms
+POST /account/signup 200 16 - 29.868 ms
+POST /account/signup 200 220 - 37.671 ms
+POST /account/signup 200 16 - 6.214 ms
+POST /account/signup 200 16 - 33.520 ms
+OPTIONS /account/signup 200 21 - 13.917 ms
+POST /account/signup 200 229 - 184.959 ms
+POST /account/signup 200 16 - 4.057 ms
+POST /account/signup 200 231 - 34.017 ms
+POST /account/signup 200 227 - 5.024 ms
+POST /account/signup 200 16 - 35.537 ms
+POST /account/signup 200 16 - 6.479 ms
+POST /account/signup 200 238 - 15.303 ms
+POST /account/signup 200 16 - 28.366 ms
+POST /account/signup 200 16 - 9.498 ms
+POST /account/signup 200 16 - 6.979 ms
+OPTIONS /account/signup 200 21 - 0.237 ms
+POST /account/signup 200 238 - 5.646 ms
+POST /account/signup 200 252 - 44.255 ms
+POST /account/signup 200 16 - 4.580 ms
+POST /account/signup 200 16 - 4.634 ms
+POST /account/signup 200 16 - 5.596 ms
+POST /account/signup 200 224 - 8.150 ms
+POST /account/signup 200 238 - 4.623 ms
+GET /account/test 304 - - 224.585 ms
+GET /account/test 304 - - 0.260 ms
+GET /account/test 304 - - 0.233 ms
+GET /account/test 304 - - 23.137 ms
+GET /account/test 304 - - 17.281 ms
+GET /account/test 304 - - 0.272 ms
+GET /account/test 304 - - 0.288 ms
+GET /account/test 304 - - 58.778 ms
+GET /account/test 304 - - 0.298 ms
+POST /account/signup 200 217 - 40.366 ms
+POST /account/signup 200 16 - 53.390 ms
+POST /account/signup 200 217 - 393.339 ms
+POST /account/signup 200 16 - 468.379 ms
+POST /account/signup 200 16 - 133.970 ms
+POST /account/signup 200 16 - 39.749 ms
+POST /account/signup 200 16 - 31.988 ms
+POST /account/signup 200 199 - 22.836 ms
+POST /account/signup 200 16 - 49.409 ms
+OPTIONS /account/signup 200 21 - 0.290 ms
+POST /account/signup 200 210 - 4.965 ms
+OPTIONS /account/signup 200 21 - 1.605 ms
+POST /account/signup 200 201 - 342.867 ms
+GET /favicon.ico 304 - - 3.983 ms
+Assertion failed: (0), function uv_err_name, file ../deps/uv/src/uv-common.c, line 75.
+listen 18080 ok!
+OPTIONS /account/signup 200 21 - 3.907 ms
+POST /account/signup 200 194 - 177.514 ms
+OPTIONS /account/signup 200 21 - 0.722 ms
+POST /account/signup 200 222 - 9.487 ms
+OPTIONS /account/signup 200 21 - 1.756 ms
+POST /account/signup 200 16 - 79.797 ms
+POST /account/signup 200 16 - 5.558 ms
+OPTIONS /account/signup 200 21 - 0.274 ms
+POST /account/signup 200 224 - 5.697 ms
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: listen EADDRINUSE
+    at exports._errnoException (util.js:746:11)
+    at Server._listen2 (net.js:1129:14)
+    at listen (net.js:1155:10)
+    at Server.listen (net.js:1240:5)
+    at Object.<anonymous> (/Users/ID/work/angularjs/note/server.js:58:8)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3

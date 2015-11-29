@@ -75,7 +75,11 @@ angular.module('app.Services', [])
 
         function init() {
             if ($window.sessionStorage['userInfo']) {
+                console.log('has sessionStorage');
                 userInfo = JSON.parse($window.sessionStorage['userInfo']);
+            }else
+            {
+                console.log(userInfo);
             }
         }
 

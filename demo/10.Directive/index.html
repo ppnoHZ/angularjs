@@ -1,0 +1,20 @@
+<html ng-app="app">
+
+<head>
+    <title></title>
+    <script src="../lib/angularjs1.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="myDirective.js"></script>
+</head>
+
+<body>
+<my-directive></my-directive><br>
+<my-directive-params my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-params><br>
+<my-directive-test my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-test>
+<div ng-controller="appController"></div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+##Router    需要下载ngRoutes模块，在index中引用。##使用    两个方法：        * when        * otherwise    在controller中使用：        ```javascript        angular.module('myApp',['ngRoute']);    ```
