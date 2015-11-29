@@ -9,12 +9,12 @@ var token = require('./token.js')
 mongoose.connect('192.168.3.105:27017/test');
 
 var app = express();
-//app.all("*", function(req, res, next){
-//    res.header("Access-Control-Allow-Origin", "*");
-//    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Content-Length, Accept");
-//    res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
-//    next();
-//});
+app.all("*", function(req, res, next){
+   res.header("Access-Control-Allow-Origin", "*");
+   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Content-Length, Accept");
+   res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
+   next();
+});
 app.use(express.static(__dirname + "/views"));
 app.use(body_parser.urlencoded({extended: true}));
 app.use(body_parser.json());
