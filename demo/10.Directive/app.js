@@ -1,1 +1,1 @@
-/** * Created by ID on 15/11/10. * Author:zhoudd * email:zhoudd@stark.tm *///var app = angular.module('app', [])//app.controller('appController', function ($scope) {////});
+/** * Created by ID on 15/11/10. * Author:zhoudd * email:zhoudd@stark.tm */var app = angular.module('app', ["app.driectives"])app.controller('appController', function ($scope) {});

@@ -11,7 +11,18 @@
 <my-directive></my-directive><br>
 <my-directive-params my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-params><br>
 <my-directive-test my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-test>
-<div ng-controller="appController"></div>
+<!-- <div ng-controller="appController"> -->
+	
+	<my-line  add="add()">
+		<my-car></my-car>
+	</my-line>
+
+	<outer-directive>
+  		<inner-directive></inner-directive>
+	</outer-directive>
+<!-- </div> -->
+
+
 
 
 
