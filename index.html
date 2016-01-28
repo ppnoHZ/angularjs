@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Angularjs by zdd910</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/zdd910/angularjs">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Angularjs</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/zdd910/angularjs/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/zdd910/angularjs/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="service" class="anchor" href="#service" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Service</h1>
+
+<p>5种方式创建服务:</p>
+
+<blockquote>
+<p><strong>factory</strong>  最常见的创建服务的方式。</p>
+
+<p><strong>service</strong>  注册一个支持构造函数的服务。</p>
+
+<p><strong>constant</strong> 将已存在的变量注册为服务,可以注入到config配置函数中, </p>
+
+<p><strong>value</strong>    当$get方法返回的是一个常量的时候使用，和constant创建的服务类似,但是不可注入到config</p>
+
+<p><strong>provider</strong></p>
+</blockquote>
+
+<h2>
+<a id="factory" class="anchor" href="#factory" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>factory</h2>
+
+<p>最快速的创建服务的方式。</p>
+
+<h3>
+<a id="params" class="anchor" href="#params" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>params：</h3>
+
+<blockquote>
+<p><strong>name</strong>(string)
+服务的名称。</p>
+
+<p><strong>fun</strong>(object、array、function)
+创建服务实例的时候被调用，可返回简单的类型，函数，对象等任意类型的数据。(同value()函数类似)</p>
+</blockquote>
+
+<h3>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>example：</h3>
+
+<div class="highlight highlight-source-js"><pre>    <span class="pl-smi">angular</span>.<span class="pl-en">module</span>(<span class="pl-s"><span class="pl-pds">'</span>app<span class="pl-pds">'</span></span>)
+    .<span class="pl-en">factory</span>(<span class="pl-s"><span class="pl-pds">'</span>testFactroy<span class="pl-pds">'</span></span>,<span class="pl-k">function</span>(){
+        <span class="pl-k">return</span> {
+            <span class="pl-en">get</span><span class="pl-k">:</span><span class="pl-k">function</span>(<span class="pl-smi">username</span>){
+
+        }
+    })</pre></div>
+
+<h2>
+<a id="service-1" class="anchor" href="#service-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>service</h2>
+
+<p>注册一个支持构造函数的服务，允许我们为服务对象注册一个构造函数。service()函数在穿件实例时通过new关键字来实例化服务对象。</p>
+
+<h3>
+<a id="params-1" class="anchor" href="#params-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>params:</h3>
+
+<blockquote>
+<p>name
+服务名称</p>
+
+<p>constructor
+函数:通过这个方法来实例化服务对象。</p>
+</blockquote>
+
+<h3>
+<a id="example-1" class="anchor" href="#example-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>example：</h3>
+
+<div class="highlight highlight-source-js"><pre>    <span class="pl-k">var</span> <span class="pl-en">Person</span> <span class="pl-k">=</span><span class="pl-k">function</span>(<span class="pl-smi">$http</span>){
+        <span class="pl-v">this</span>.<span class="pl-smi">getName</span><span class="pl-k">=</span><span class="pl-k">function</span>(){
+            <span class="pl-k">return</span> <span class="pl-en">$http</span>({method<span class="pl-k">:</span><span class="pl-s"><span class="pl-pds">'</span>GET<span class="pl-pds">'</span></span>,url<span class="pl-k">:</span><span class="pl-s"><span class="pl-pds">'</span>api/user<span class="pl-pds">'</span></span>});
+
+        }
+    }
+    <span class="pl-smi">angular</span>.<span class="pl-en">service</span>(<span class="pl-s"><span class="pl-pds">'</span>personService<span class="pl-pds">'</span></span>,Person);</pre></div>
+
+<h2>
+<a id="constant" class="anchor" href="#constant" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>constant</h2>
+
+<p>将一个已经存在的<strong>变量</strong>注册为服务,并将其注入到应用的其他部分中。
+可以注入到config中,不能被装饰器拦截。</p>
+
+<h3>
+<a id="params-2" class="anchor" href="#params-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>params:</h3>
+
+<blockquote>
+<p>name(字符串) 服务名称</p>
+
+<p>value(常量)
+需要注册的常量的值</p>
+</blockquote>
+
+<h3>
+<a id="example-2" class="anchor" href="#example-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>example:</h3>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-smi">app</span>.<span class="pl-en">constant</span>(<span class="pl-s"><span class="pl-pds">'</span>constValue<span class="pl-pds">'</span></span>,<span class="pl-s"><span class="pl-pds">'</span>testConstantService<span class="pl-pds">'</span></span>)
+<span class="pl-smi">app</span>.<span class="pl-en">constant</span>(<span class="pl-s"><span class="pl-pds">'</span>constService<span class="pl-pds">'</span></span>, {
+    name<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>zdd<span class="pl-pds">'</span></span>,
+    age<span class="pl-k">:</span> <span class="pl-c1">11</span>,
+    <span class="pl-en">getName</span><span class="pl-k">:</span> <span class="pl-k">function</span> () {
+        <span class="pl-k">return</span> <span class="pl-v">this</span>.<span class="pl-c1">name</span>;
+    }
+})</pre></div>
+
+<h2>
+<a id="value" class="anchor" href="#value" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>value</h2>
+
+<p>如果服务的$get方法返回的是一个常量,就没有必要定义一个包含复杂功能的完整服务,可以通过value()函数方便的注册服务。</p>
+
+<h3>
+<a id="params-3" class="anchor" href="#params-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>params</h3>
+
+<blockquote>
+<p>name(字符串)</p>
+
+<p>value(值)</p>
+</blockquote>
+
+<h3>
+<a id="example-3" class="anchor" href="#example-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>example</h3>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-smi">app</span>.<span class="pl-c1">value</span>(<span class="pl-s"><span class="pl-pds">'</span>valueService<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>123<span class="pl-pds">'</span></span>)
+<span class="pl-smi">app</span>.<span class="pl-c1">value</span>(<span class="pl-s"><span class="pl-pds">'</span>valueObject<span class="pl-pds">'</span></span>,{
+        name<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>zdd<span class="pl-pds">'</span></span>,
+        <span class="pl-en">getName</span><span class="pl-k">:</span> <span class="pl-k">function</span> () {
+            <span class="pl-k">return</span> <span class="pl-v">this</span>.<span class="pl-c1">name</span>;
+        }
+    }
+)</pre></div>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/zdd910">zdd910</a> can be found on <a href="https://github.com/zdd910/angularjs">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
