@@ -1,0 +1,28 @@
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <script src="../../../bower_components/angular/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="../../../bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+    <script src="../../../bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+
+    <script src="app.js"></script>
+</head>
+
+<body>
+<div ng-controller="appController">
+    <button class="btn btn-primary">click me</button>
+
+    <div class="panel panel-default">
+        <h4 class="panel-heading">Time</h4>
+        <div class="panel-body">
+            The time is: {{time}}
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
