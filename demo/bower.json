@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "homepage": "https://github.com/zdd910/angularjs",
+  "authors": [
+    "zhoudd-mac <zhoudd@stark.tm>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~1.1.1",
+    "bootstrap": "~3.3.6"
+  }
+}
