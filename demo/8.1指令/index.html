@@ -8,12 +8,12 @@
 </head>
 
 <body>
-<my-directive></my-directive><br>
-<my-directive-params my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-params><br>
-<my-directive-test my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-test>
-<div ng-controller="appController">
-
-</div>
+    <my-directive></my-directive><br>
+    <my-directive-params my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-params><br>
+    <my-directive-test my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-test>
+    <div ng-controller="appController">
+        <d-link-test name="{{info.name}}" text='link-text'></d-link-test>
+    </div>
 </body>
 
 </html>
