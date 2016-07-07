@@ -37,43 +37,59 @@ angular.module('app', [])
             }
         }
     })
-    .directive('myDirectiveTest1', function () {
-        return {
-            restrict: 'E',
-            scope: {
-                myUrl: '@',
-                myLinkText: '@'
-            },
-            templateUrl: 'des.html',
-            controller: function ($scope) {
-                $scope.myUrl = 'www.baidu.com';
-                $scope.myLinkText = 'controller';
+    /**
+     * 如果要 使用html文件作为模板，则需要一个本地服务器
+     */
+    // .directive('myDirectiveTest1', function () {
+    //     return {
+    //         restrict: 'E',
+    //         scope: {
+    //             myUrl: '@',
+    //             myLinkText: '@'
+    //         },
+    //         templateUrl: 'des.html',
+    //         controller: function ($scope) {
+    //             $scope.myUrl = 'www.baidu.com';
+    //             $scope.myLinkText = 'controller';
 
-            }
-        }
-    })
+    //         }
+    //     }
+    // })
     .directive('dLinkTest', function ($log) {
         return {
             restrict: 'E',
             template: "<a ng-click='show()'>{{name}}</a>",
             controller: function ($scope) {
-                $scope.$watch('name',function (param) {
-                    $log.info('name-name',$scope.name)
-                    
-                  })
+                $scope.$watch('name', function (param) {
+                    $log.info('name-name', $scope.name)
+                })
 
             }, link: function (scope, element, attrs) {
+                $log.info('arguments', arguments)
+
                 $log.info('attrs', attrs)
                 $log.info('text', attrs['text'])
                 $log.info('name', attrs["name"])
-                scope.name= attrs["name"]
+                scope.name = attrs["name"]
 
             }
         }
     })
-    .controller('appController', function ($scope) {
+    .directive('dNgTransclude', function () {
+        return {
+            restrict: 'EA',
+            transclude: true,
+            template: `
+            <div ng-transclude>
 
-        $scope.info = {
+            </div>
+            `
+
+        }
+    })
+    .controller('appController', function () {
+
+        this.info = {
             name: 'zhoudd'
         }
 

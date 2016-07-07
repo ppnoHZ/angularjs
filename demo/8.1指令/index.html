@@ -1,6 +1,7 @@
 <html ng-app="app">
 
 <head>
+    <meta charset="utf-8">
     <title></title>
     <script src="../lib/angularjs1.4/angular.min.js"></script>
     <script src="app.js"></script>
@@ -12,8 +13,15 @@
     <my-directive-params my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-params><br>
     <my-directive-test my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-test>
     <my-directive-test1 my-url="http://www.baidu.com" my-link-text="baidu"></my-directive-test1>
-    <div ng-controller="appController">
-        <d-link-test name="{{info.name}}" text='link-text'></d-link-test>
+    <div ng-controller="appController as app">
+        <d-link-test name="{{app.info.name}}" text='link-text'></d-link-test>
+
+        <d-ng-transclude>
+            <h2>ngTransclude</h2>
+        </d-ng-transclude>
+        <d-ng-transclude>
+            <h2>ngTransclude 复用</h2>
+        </d-ng-transclude>
     </div>
 
 </body>
