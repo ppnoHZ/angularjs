@@ -52,6 +52,29 @@ angular.module('app', [])
             }
         }
     })
+    .directive('dLinkTest', function ($log) {
+        return {
+            restrict: 'E',
+            template: "<a ng-click='show()'>{{name}}</a>",
+            controller: function ($scope) {
+                $scope.$watch('name',function (param) {
+                    $log.info('name-name',$scope.name)
+                    
+                  })
+
+            }, link: function (scope, element, attrs) {
+                $log.info('attrs', attrs)
+                $log.info('text', attrs['text'])
+                $log.info('name', attrs["name"])
+                scope.name= attrs["name"]
+
+            }
+        }
+    })
     .controller('appController', function ($scope) {
+
+        $scope.info = {
+            name: 'zhoudd'
+        }
 
     });
