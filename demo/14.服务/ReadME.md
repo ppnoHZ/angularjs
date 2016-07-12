@@ -5,9 +5,9 @@
 
 > **service**  注册一个支持构造函数的服务。
 
-> **constant** 将已存在的变量注册为服务,可以注入到config配置函数中, 
+> **constant** 将已存在的常量注册为服务,可以注入到config配置函数中,值不能改变。
 
-> **value**    当$get方法返回的是一个常量的时候使用，和constant创建的服务类似,但是不可注入到config
+> **value**    当$get方法返回的是一个常量的时候使用，和constant创建的服务类似,但是不可注入到config。
 
 > **provider**
 
@@ -56,7 +56,7 @@
 ```
 ## constant
 将一个已经存在的**变量**注册为服务,并将其注入到应用的其他部分中。
-<mark>可以注入到config中,不能被装饰器拦截。</mark>
+<mark>可以注入到config中,不能被装饰器拦截。值不能更改，当在一个控制器中赋值之后，在另外一个控制器中将还是原来的值。</mark>
 ### params:
 >name(字符串) 服务名称
 
@@ -78,6 +78,7 @@ app.constant('constService', {
 ## value
 
 如果服务的$get方法返回的是一个常量,就没有必要定义一个包含复杂功能的完整服务,可以通过value()函数方便的注册服务。
+<mark>值可以更改。跨控制器可获得新值</mark>
 
 ### params
 > name(字符串)
@@ -95,3 +96,4 @@ app.value('valueObject',{
     }
 )
 ```
+
