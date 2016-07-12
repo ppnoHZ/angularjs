@@ -39,6 +39,6 @@ app.controller('appController', function($scope, $q) {
     }
     $q.all([funcA(), funcB()])
         .then(function(result) {
-            console.log(result);
+            console.log(result); //["hello,funA", "hello,funB"]
         });
 })
