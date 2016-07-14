@@ -5,27 +5,27 @@
  */
 
 var app = angular.module('app', ['app.service'])
-app.controller('appController', function($scope, s_service, $http) {
-        console.log(s_service.getName('测试装饰器'));
+app.controller('appController', function ($scope, s_service, $http) {
+    console.log(s_service.getName('测试装饰器'));
 
-        s_service.getType();
+    s_service.getType();
 
-        /**
-         * 跨域，由于实现的方式，只能发get请求
-         */
-        $http.jsonp("https://api.github.com?callback=JSON_CALLBACK").success(function(data) {
-            // console.log('object', data);􏲪􏺒
-            console.log(data);
-        });
-    })
-    .config(function($provide, $httpProvider) {
+    /**
+     * 跨域，由于实现的方式，只能发get请求
+     */
+    $http.jsonp("https://api.github.com?callback=JSON_CALLBACK").success(function (data) {
+        // console.log('object', data);􏲪􏺒
+        console.log(data);
+    });
+})
+    .config(function ($provide, $httpProvider) {
 
         //$httpProvider.interceptors.push('myInterceptor');
 
-        $provide.decorator('s_service', function($delegate, $log) {
+        $provide.decorator('s_service', function ($delegate, $log) {
             var tmpGetName = $delegate.getName;
 
-            $delegate.getName = function() {
+            $delegate.getName = function () {
                 console.log('装饰器');
                 // return '装饰器之后'
                 return tmpGetName.apply($delegate, arguments);
@@ -33,29 +33,46 @@ app.controller('appController', function($scope, s_service, $http) {
             return $delegate;
         })
     })
-    .factory('myInterceptor', function($q) {
+    .factory('myInterceptor', function ($q) {
         var interceptor = {
-            'request': function(config) {
+            'request': function (config) {
                 // 􏶥􏶦的􏵳􏵴􏶧􏲮
                 console.log('发送请求');
                 return config; // 􏶨􏶩 $q.when(config);
             },
-            'response': function(response) { // 􏴘􏴒􏶥􏶦
+            'response': function (response) { // 􏴘􏴒􏶥􏶦
                 console.log('相应请求');
 
                 return response; // 􏶨􏶩 $q.when(config);
             },
-            'requestError': function(rejection) {
+            'requestError': function (rejection) {
                 //􏵳􏵴􏶪􏶫􏶬错误􏲥􏶭􏶮􏶯􏶰错误中􏶱􏶲􏲥􏱑􏱒􏴛􏴜􏱖􏲉􏶳的􏵳􏵴􏶨promise
                 return response; // 􏶨􏶳的promise
                 // 􏶨􏶩􏲥􏱑􏱒􏶴􏶵􏴛􏴜􏱖􏲉rejection􏶶􏴤􏶷􏶉􏱖􏶸
                 // return $q.reject(rejection);
             },
-            'responseError': function(rejection) {
+            'responseError': function (rejection) {
                 // 􏵳􏵴􏶪􏶫􏶬错误􏲥􏶭􏶮􏶯􏶰错误中􏶱􏶲􏲥􏱑􏱒􏴛􏴜􏱖􏲉􏶳的􏴘􏴒􏶨promise
-                return rejection; // 􏶨􏶳的promise
+
+                switch (rejection.status) {
+                    case 401:
+                        if (rejection.config.url !== 'api/login') {
+                            $rootScope.$broadcast('auth:loginRequired');
+                        }
+                        break;
+                    case 403:
+                        $rootScope.$broadcast('auth:forbidden');
+                        break;
+                    case 404:
+                        $rootScope.$broadcast('page:notFound');
+                        break;
+                    case 500:
+                        $rootScope.$broadcast('server:error');
+                        break;
+                }
+                // return rejection; // 􏶨􏶳的promise
                 // 􏶨􏶩􏲥􏱑􏱒􏶴􏶵􏴛􏴜􏱖􏲉rejection􏶶􏴤􏶷􏶉􏱖􏶸
-                // return $q.reject(rejection);
+                return $q.reject(rejection);
             }
         };
         return interceptor;
@@ -64,10 +81,10 @@ app.controller('appController', function($scope, s_service, $http) {
      * http 请求钩子.
      */
     .factory('AuthInterceptor', ['$q', '$location', 'Storage',
-        function($q, $location, Storage) {
+        function ($q, $location, Storage) {
             var interceptor = {};
 
-            interceptor.request = function(config) {
+            interceptor.request = function (config) {
                 var token = Storage.get('userInfo');
                 if (token) {
                     //console.log('set Header', token.token);
@@ -76,7 +93,7 @@ app.controller('appController', function($scope, s_service, $http) {
                 return config;
             };
 
-            interceptor.responseError = function(response) {
+            interceptor.responseError = function (response) {
                 if (response.status == 403) {
                     //console.log(403)
                     Storage.remove('userInfo');
