@@ -125,8 +125,14 @@ app.controller('home_ctrl', function ($scope, $http, $log, Auth, Restangular) {
     //     console.log(result);
     // });
 
-    var info1 = Restangular.one('/user', {q:{}}, {});
-    console.log(info1.getList());
+    var info1 = Restangular.one('/user', { q: {} }, {});
+
+    info1.getList().then(function (users) {
+        console.log('users',users);
+        
+        console.log(users[0]);
+
+    })
 
 
 
