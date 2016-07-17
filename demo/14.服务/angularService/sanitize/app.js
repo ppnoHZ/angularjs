@@ -1,0 +1,1 @@
+/** * Created by ID on 15/11/10. * Author:zhoudd * email:zhoudd@stark.tm */var app = angular.module('app', ['ui.bootstrap','ngSanitize'])app.controller('appController', function ($scope,$window,$document,$interval,$sce) {	//必须转换一下不然报错。	$scope.htmlData=$sce.trustAsHtml("<p>This is <b onmouseover=alert('attack!')>dangerous</b> data</p>");		});

@@ -1,0 +1,32 @@
+<html ng-app="app">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="../bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div ng-controller="appController">
+        <div class="panel panel-default">
+            <h4 class="panel-heading">URL</h4>
+            <div class="panel-body">
+                <p>URL is:{{url}}</p>
+                <div class="btn-group">
+                    <button class="btn btn-primary" ng-click="setUrl('reset')">reset</button>
+                    <button class="btn btn-primary" ng-click="setUrl('path')">path</button>
+                    <button class="btn btn-primary" ng-click="setUrl('hash')">hash</button>
+                    <button class="btn btn-primary" ng-click="setUrl('search')">search</button>
+                    <button class="btn btn-primary" ng-click="setUrl('url')">url</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
