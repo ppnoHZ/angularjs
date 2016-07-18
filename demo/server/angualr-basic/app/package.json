@@ -1,0 +1,15 @@
+{
+  "name": "angualr-basic",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "karma": "*"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-qunit": "^1.1.0"
+  }
+}

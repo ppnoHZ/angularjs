@@ -3,7 +3,7 @@ angular.module('app.services', [])
         var service = {
             count: function () {
                 var d = $q.defer();
-                $http.get('/hit/hit')
+                $http.get('/hit')
                     .success(function (data, status) {
                         d.resolve(data.hits)
                     }).error(function (data, status) {
@@ -13,7 +13,7 @@ angular.module('app.services', [])
             },
             registerHit: function () {
                 var d = $q.defer();
-                $http.post('/hit/register', {})
+                $http.post('/hit', {})
                     .success(function (data, status) {
                         d.resolve(data.hits)
                     }).error(function (data, status) {
@@ -24,3 +24,8 @@ angular.module('app.services', [])
         }
         return service;
     })
+    .factory('Person', function () {
+        return function Person(name) {
+            this.name = name;
+        };
+    });
